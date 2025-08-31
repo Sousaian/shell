@@ -49,7 +49,7 @@ JsonObject {
         },
         {
             id: "idleInhibitor",
-            enabled: false
+            enabled: 
         }
     ]
 
