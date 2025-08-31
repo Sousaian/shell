@@ -22,9 +22,9 @@ JsonObject {
     }
 
     component Sizes: JsonObject {
-        property int itemWidth: 600
-        property int itemHeight: 57
-        property int wallpaperWidth: 280
-        property int wallpaperHeight: 200
+        property int itemWidth: 500
+        property int itemHeight: 35
+        property int wallpaperWidth: 220
+        property int wallpaperHeight: 150
     }
 }

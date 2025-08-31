@@ -8,7 +8,7 @@ JsonObject {
     property Sizes sizes: Sizes {}
 
     component Sizes: JsonObject {
-        property int sliderWidth: 30
+        property int sliderWidth: 25
         property int sliderHeight: 150
     }
 }

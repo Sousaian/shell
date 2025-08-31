@@ -9,7 +9,7 @@ JsonObject {
     property Transparency transparency: Transparency {}
 
     component Rounding: JsonObject {
-        property real scale: 1
+        property real scale: 0.5
         property int small: 12 * scale
         property int normal: 17 * scale
         property int large: 25 * scale
@@ -17,7 +17,7 @@ JsonObject {
     }
 
     component Spacing: JsonObject {
-        property real scale: 1
+        property real scale: 0.5
         property int small: 7 * scale
         property int smaller: 10 * scale
         property int normal: 12 * scale
@@ -26,7 +26,7 @@ JsonObject {
     }
 
     component Padding: JsonObject {
-        property real scale: 1
+        property real scale: 0.5
         property int small: 5 * scale
         property int smaller: 7 * scale
         property int normal: 10 * scale

@@ -33,7 +33,7 @@ JsonObject {
         },
         {
             id: "tray",
-            enabled: true
+            enabled: false
         },
         {
             id: "clock",
@@ -54,10 +54,10 @@ JsonObject {
     ]
 
     component Workspaces: JsonObject {
-        property int shown: 5
+        property int shown: 6
         property bool activeIndicator: true
         property bool occupiedBg: false
-        property bool showWindows: true
+        property bool showWindows: false
         property bool activeTrail: false
         property bool perMonitorWorkspaces: true
         property string label: "  "
@@ -71,7 +71,7 @@ JsonObject {
     }
 
     component Status: JsonObject {
-        property bool showAudio: false
+        property bool showAudio: true
         property bool showKbLayout: false
         property bool showNetwork: true
         property bool showBluetooth: true
@@ -83,7 +83,7 @@ JsonObject {
     }
 
     component Sizes: JsonObject {
-        property int innerWidth: 40
+        property int innerWidth: 25
         property int windowPreviewSize: 400
         property int trayMenuWidth: 300
         property int batteryWidth: 250
