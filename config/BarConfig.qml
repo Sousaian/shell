@@ -49,7 +49,7 @@ JsonObject {
         },
         {
             id: "idleInhibitor",
-            enabled: 
+            enabled: false
         }
     ]
 
@@ -79,7 +79,7 @@ JsonObject {
     }
 
     component Clock: JsonObject {
-        property bool showIcon: true
+        property bool showIcon: false
     }
 
     component Sizes: JsonObject {
